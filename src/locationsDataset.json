@@ -1,0 +1,42 @@
+{
+    "locations": [{
+        "patientId" : 1,
+        "locationdetails" : {
+          "startDate" : "2019-05-12",
+          "endDate" : "2020-05-12",
+          "city" : "Jerusalem",
+          "location" : "super market"
+        }
+      },
+     {
+        "patientId" : 2,
+        "locationdetails": {
+        "startDate": "2018-05-12",
+        "endDate": "2019-05-12",
+        "city" : "Eilat",
+        "location": "gym"
+        }
+      },
+      {
+        "patientId": 1,
+        "locationdetails": {
+          "startDate": "2018-06-12",
+          "endDate": "2019-05-12",
+          "city": "Eilat",
+          "location": "gym"
+        }
+        },
+     {
+        "patientId": 1,
+        "locationdetails": {
+          "startDate" : "2018-05-12",
+          "endDate" : "2020-05-12",
+          "city" : "Tel Aviv",
+          "location": "gym"
+        }
+      }
+      
+    ],
+    "columnNames": ["Start Date", "End Date", "City", "Location"],
+    "columnKeys": ["startDate", "endDate", "city", "location"]
+}
